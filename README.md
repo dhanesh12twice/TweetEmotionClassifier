@@ -4,10 +4,7 @@
 <br />
 
 ### Description:
-       This project is all about recognising what emotion is inscribed on the tweet. This is a supervised classification
-       problem of classes- joy,sadness,surprise,anger,fear,love . This is a Natural language Processing based problem 
-       where i done tokenization,lemmitization and trained with processed keywords to achieve the model. I've used 
-       Hugging NLP package and used the emotion dataset to create the model.
+       This project is all about recognising what emotion is inscribed on the tweet. This is a supervised classification problem of classes- joy,sadness,surprise,anger,fear,love . This is a Natural language Processing based problem where i done tokenization,lemmitization and trained with processed keywords to achieve the model. I've used Hugging NLP package and used the emotion dataset to create the model.
 
 <br />
 ### Procedure: <br />

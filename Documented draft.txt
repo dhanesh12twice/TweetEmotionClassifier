@@ -1,0 +1,43 @@
+1. Hugging face nlp package
+2. Emotion datset
+3. Creating train,validation,test sets of tweets
+4. Tokenized train tweets wit parameter num_words = 10000 and oov-taken = UNK
+5. Performed Exploratory Data analysis of tweets
+     - By seeing Hist plot 
+                           The highest frequency of the tweets are in 15 words. and slowly
+                            degrades over time.
+
+6.  Padding  tokenized tweets
+        - wth parameter truncating= post , padding = post , maxlen = maxlen
+
+// Padded zeros upto maxlen for each tokenized tweets.
+
+7. Performed EDA of labels ie kind of emotions
+              - joy has the highest frequency and surprise has least
+
+8. Created a dictionary to assign unique values to unique emotions/labels in train data.Then applied the unique values to all labels in dataset  
+
+9. Just created and didnt trained the Model using tensorflow keras 
+        first layer  -   embedding 
+        second layer -  Bidirectional LSTM
+        third layer  -  Bidirectional LSTM
+        fourth layer - Dense and activation softmax
+
+    and Other params 
+             loss = sparse categorical crossentropy
+              optimizer = adam
+              metrics = [accuracy]
+
+10. Tokenized , label encoded for Validation set tweets also
+
+11. Training the train data also verifying with validation data by enabling EARLY 
+STOPPING CALLBACKS.
+
+// After successful training
+12. Visualizing loss and accuracy of the train and validation set . It performs good.
+
+13. Then performing with test set. good performance with loss 0.44
+
+14. Random prediction with model on test tweets
+
+15. Created confusion matrix  //for finding F1 score of the model

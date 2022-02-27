@@ -7,6 +7,7 @@
        This project is all about recognising what emotion is inscribed on the tweet. This is a supervised classification problem of classes- joy,sadness,surprise,anger,fear,love . This is a Natural language Processing based problem where i done tokenization,lemmitization and trained with processed keywords to achieve the model. I've used Hugging NLP package and used the emotion dataset to create the model.
 
 <br />
+
 ### Procedure: <br />
 1. Installing Hugging's face NLP Package and Importing Emotion dataset.<br />
 2. Splitted up the dataset into three- Train_data, Cross_validation_data, Test_data<br />
